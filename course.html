@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>تفاصيل الدورة | أكاديمية لؤلؤة</title>
+<meta name="description" content="تفاصيل دورة من دورات أكاديمية لؤلؤة التعليمية أونلاين للنساء.">
+<meta name="theme-color" content="#f7f0ff">
+
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Reem+Kufi:wght@400..700&family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="pearl-bg" aria-hidden="true">
+  <span class="glow glow-1"></span>
+  <span class="glow glow-2"></span>
+  <span class="glow glow-3"></span>
+  <span class="bubble b1"></span>
+  <span class="bubble b2"></span>
+  <span class="bubble b3"></span>
+  <span class="bubble b4"></span>
+</div>
+
+<main class="shell course-page">
+
+  <a class="back-link" href="index.html#courses">
+    <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+    العودة لكل الدورات
+  </a>
+
+  <article class="course-hero reveal" id="courseBox" hidden>
+    <span class="course-field" id="cField"></span>
+    <h1 class="course-title" id="cTitle"></h1>
+    <div class="course-badges">
+      <span class="badge" id="cStatus"></span>
+      <span class="badge badge-price" id="cPrice"></span>
+    </div>
+    <p class="course-desc" id="cDesc"></p>
+  </article>
+
+  <section class="course-panel reveal" id="pointsPanel" hidden aria-labelledby="pointsTitle">
+    <h2 class="panel-title" id="pointsTitle">
+      <i class="fa-solid fa-sparkles" aria-hidden="true"></i>
+      ما ستتعلمينه
+    </h2>
+    <ul class="points" id="cPoints"></ul>
+  </section>
+
+  <section class="course-panel reveal" id="infoPanel" hidden aria-labelledby="infoTitle">
+    <h2 class="panel-title" id="infoTitle">
+      <i class="fa-solid fa-circle-info" aria-hidden="true"></i>
+      معلومات الدورة
+    </h2>
+    <ul class="info-list">
+      <li>
+        <span class="info-ico"><i class="fa-solid fa-laptop" aria-hidden="true"></i></span>
+        <span><strong>نمط الدراسة</strong><small id="cFormat"></small></span>
+      </li>
+      <li>
+        <span class="info-ico"><i class="fa-solid fa-venus" aria-hidden="true"></i></span>
+        <span><strong>الفئة المستهدفة</strong><small id="cAudience"></small></span>
+      </li>
+      <li>
+        <span class="info-ico"><i class="fa-solid fa-tag" aria-hidden="true"></i></span>
+        <span><strong>الرسوم</strong><small id="cFee"></small></span>
+      </li>
+    </ul>
+  </section>
+
+  <div class="course-cta reveal" id="cCtaWrap" hidden>
+    <a class="cta-btn" id="cCta" target="_blank" rel="noopener">
+      <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+      <span id="cCtaText"></span>
+    </a>
+    <p class="cta-note">أو تصفّحي <a href="index.html#courses">كل دورات الأكاديمية</a></p>
+  </div>
+
+  <article class="course-hero not-found reveal" id="notFound" hidden>
+    <span class="course-title">لم نجد هذه الدورة 🐚</span>
+    <p class="course-desc">ربما تغيّر الرابط — تصفّحي دوراتنا من الواجهة الرئيسية.</p>
+    <a class="cta-btn" href="index.html#courses">
+      <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+      <span>كل الدورات</span>
+    </a>
+  </article>
+
+  <footer class="footer reveal">
+    <img class="footer-logo" src="assets/img/logo.png" alt="" aria-hidden="true" width="74" height="74" loading="lazy">
+    <p class="footer-name">أكاديمية لؤلؤة</p>
+    <p class="footer-note">أكاديمية أونلاين للنساء — لأن كل امرأة تستحق أن تتعلّم وتنجح بأسلوبها.</p>
+    <p class="copy">© <span id="year">2026</span> أكاديمية لؤلؤة — جميع الحقوق محفوظة 💜</p>
+  </footer>
+
+</main>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/courses.js"></script>
+<script src="assets/js/course.js"></script>
+</body>
+</html>
