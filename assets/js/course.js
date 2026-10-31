@@ -20,10 +20,16 @@
   document.getElementById("cDesc").textContent = course.desc;
   document.title = course.title + " | أكاديمية لؤلؤة";
 
-  /* بادجة السعر: خضراء للمجانية، بنفسجية للمدفوعة */
+  /* بادجة السعر: خضراء للمجانية، بنفسجية للمدفوعة (مع السعر قبل التخفيض مشطوبًا) */
   var price = document.getElementById("cPrice");
   price.textContent = course.price;
   price.classList.add(course.priceType === "free" ? "badge-free" : "badge-paid");
+  if (course.priceOld) {
+    var old = document.createElement("s");
+    old.className = "price-old";
+    old.textContent = course.priceOld;
+    price.appendChild(old);
+  }
 
   /* ما ستتعلمينه */
   var ul = document.getElementById("cPoints");
@@ -38,7 +44,9 @@
   document.getElementById("cFormat").textContent = course.format;
   document.getElementById("cAudience").textContent = course.audience;
   document.getElementById("cFee").textContent =
-    course.priceType === "free" ? "المشاركة مجانية بالكامل 🤍" : "رسوم مدفوعة — تواصلين معنا لمعرفة السعر";
+    course.priceType === "free" ? "المشاركة مجانية بالكامل 🤍" :
+    course.priceOld ? "بعد التخفيض: " + course.price + " (بدلًا من " + course.priceOld + ")" :
+    "الرسوم: " + course.price;
 
   /* زر التسجيل */
   var cta = document.getElementById("cCta");

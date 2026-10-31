@@ -561,6 +561,14 @@ body{
   border: 1px solid #d9c2ff;
   font-weight: 700;
 }
+.price-old{
+  font-size: .82em;
+  font-weight: 500;
+  color: var(--ink-soft);
+  text-decoration-thickness: 1.5px;
+  margin-inline-start: 5px;
+  opacity: .75;
+}
 
 /* بطاقة دورة قابلة للنقر */
 a.course-link{
