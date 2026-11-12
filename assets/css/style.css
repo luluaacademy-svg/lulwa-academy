@@ -673,7 +673,7 @@ a.course-link:hover .course-more i{ transform: translateX(-4px); }
 .footer-note{ color: var(--ink-soft); font-size: .88rem; margin-top: 4px; }
 .copy{ color: var(--ink-soft); font-size: .78rem; margin-top: 14px; opacity: .85; }
 
-/* ---------- زر واتساب العائم ---------- */
+/* ---------- زر تيليجرام العائم ---------- */
 .fab{
   position: fixed;
   bottom: 20px;

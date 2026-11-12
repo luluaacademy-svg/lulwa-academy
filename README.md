@@ -22,7 +22,7 @@ node server.js
 
 | المكان في الصفحة | القيمة الحالية |
 |---|---|
-| التسجيل (البطاقة + رمز QR) | `https://wa.me/213780295360` |
+| التسجيل (البطاقة + رمز QR) | `https://t.me/luluaacademy` |
 | الزر العائم «تواصلي معنا» | `https://t.me/luluaacademy` |
 | تيليجرام | `https://t.me/luluaacademy` |
 | إنستغرام | `https://instagram.com/your_account` (مبدئي — لم يُحدَّث بعد) |
