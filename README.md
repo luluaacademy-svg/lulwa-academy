@@ -25,7 +25,7 @@ node server.js
 | التسجيل | `https://t.me/omsulayman` |
 | الزر العائم «تواصلي معنا» | `https://t.me/luluaacademy` |
 | تيليجرام | `https://t.me/luluaacademy` |
-| إنستغرام | `https://instagram.com/your_account` (مبدئي — لم يُحدَّث بعد) |
+| إنستغرام | `https://www.instagram.com/lulua_academy/` |
 | البريد الإلكتروني | `mailto:luluaacademy@gmail.com` |
 
 ## ✏️ تعديل المحتوى
