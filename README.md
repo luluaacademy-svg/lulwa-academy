@@ -22,7 +22,7 @@ node server.js
 
 | المكان في الصفحة | القيمة الحالية |
 |---|---|
-| التسجيل | `https://t.me/luluaacademy` |
+| التسجيل | `https://t.me/omsulayman` |
 | الزر العائم «تواصلي معنا» | `https://t.me/luluaacademy` |
 | تيليجرام | `https://t.me/luluaacademy` |
 | إنستغرام | `https://instagram.com/your_account` (مبدئي — لم يُحدَّث بعد) |
