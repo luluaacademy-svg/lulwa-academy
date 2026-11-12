@@ -730,44 +730,6 @@ a.course-link:hover .course-more i{ transform: translateX(-4px); }
   .reveal{ opacity: 1; transform: none; }
 }
 
-/* ---------- بطاقة رمز QR للتسجيل ---------- */
-.qr-card{
-  margin-top: 26px;
-  background: rgba(255,255,255,.9);
-  border: 1px solid var(--line);
-  border-radius: var(--r-lg);
-  box-shadow: var(--shadow-soft);
-  backdrop-filter: blur(8px);
-  padding: 24px;
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: right;
-}
-.qr-card picture{ flex: 0 0 auto; }
-.qr-card img{
-  display: block;
-  width: 168px;
-  height: auto;
-  border-radius: 18px;
-  box-shadow: 0 8px 22px -10px rgba(120, 80, 200, .45);
-}
-.qr-text{ display: flex; flex-direction: column; gap: 6px; max-width: 340px; }
-.qr-text strong{
-  font-family: var(--font-display);
-  font-size: 1.12rem;
-  color: var(--ink);
-}
-.qr-text small{ font-size: .86rem; color: var(--ink-soft); line-height: 1.7; }
-
-@media (max-width: 640px){
-  .qr-card{ padding: 20px 16px; gap: 16px; }
-  .qr-card img{ width: 148px; }
-  .qr-text{ max-width: 100%; text-align: center; }
-}
-
 /* ---------- صفحة تفاصيل الدورة ---------- */
 .course-page{ padding-top: 26px; }
 

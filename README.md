@@ -22,12 +22,11 @@ node server.js
 
 | المكان في الصفحة | القيمة الحالية |
 |---|---|
-| التسجيل (البطاقة + رمز QR) | `https://t.me/luluaacademy` |
+| التسجيل | `https://t.me/luluaacademy` |
 | الزر العائم «تواصلي معنا» | `https://t.me/luluaacademy` |
 | تيليجرام | `https://t.me/luluaacademy` |
 | إنستغرام | `https://instagram.com/your_account` (مبدئي — لم يُحدَّث بعد) |
 | البريد الإلكتروني | `mailto:luluaacademy@gmail.com` |
-| صورة رمز QR | `assets/img/register-qr.png` و`register-qr.webp` |
 
 ## ✏️ تعديل المحتوى
 
