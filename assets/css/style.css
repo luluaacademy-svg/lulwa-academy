@@ -761,30 +761,11 @@ a.course-link:hover .course-more i{ transform: translateX(-4px); }
   color: var(--ink);
 }
 .qr-text small{ font-size: .86rem; color: var(--ink-soft); line-height: 1.7; }
-.qr-btn{
-  margin-top: 8px;
-  align-self: flex-start;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  font-size: .88rem;
-  font-weight: 700;
-  color: #fff;
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 999px;
-  background: linear-gradient(120deg, #22c267, #14a85a);
-  box-shadow: 0 8px 20px rgba(20, 168, 90, .35);
-  transition: transform .25s ease, box-shadow .25s ease;
-}
-.qr-btn:hover{ transform: translateY(-2px); box-shadow: 0 11px 24px rgba(20, 168, 90, .45); }
-.qr-btn:focus-visible{ outline: 3px solid var(--violet-500); outline-offset: 3px; }
 
 @media (max-width: 640px){
   .qr-card{ padding: 20px 16px; gap: 16px; }
   .qr-card img{ width: 148px; }
   .qr-text{ max-width: 100%; text-align: center; }
-  .qr-btn{ align-self: center; }
 }
 
 /* ---------- صفحة تفاصيل الدورة ---------- */
