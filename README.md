@@ -24,9 +24,9 @@ node server.js
 |---|---|---|
 | زر التسجيل | `https://forms.gle/your-registration-link` | رابط نموذج التسجيل |
 | واتساب (البطاقة + الزر العائم) | `https://wa.me/00000000000` | `https://wa.me/` + رقمك الدولي |
-| تيليجرام | `https://t.me/your_channel` | رابط قناتك |
+| تيليجرام | `https://t.me/luluaacademy` | رابط قناتك |
 | إنستغرام | `https://instagram.com/your_account` | رابط حسابك |
-| البريد الإلكتروني | `mailto:hello@lulwa-academy.com` | بريدك |
+| البريد الإلكتروني | `mailto:luluaacademy@gmail.com` | بريدك |
 
 ## ✏️ تعديل المحتوى
 
