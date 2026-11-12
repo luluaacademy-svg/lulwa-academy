@@ -21,7 +21,7 @@ window.COURSES = {
     format: "أونلاين مباشرة",
     audience: "للنساء فقط — بيئة تعليمية نسائية آمنة",
     cta: "سجّلي مجانًا عبر واتساب",
-    ctaLink: "https://wa.me/00000000000"
+    ctaLink: "https://wa.me/213780295360"
   },
 
   "kuroshi": {
@@ -41,7 +41,7 @@ window.COURSES = {
     format: "أونلاين مباشرة",
     audience: "لكل المستويات — من المبتدئة إلى المتقدمة",
     cta: "استفسري عن السعر والتسجيل",
-    ctaLink: "https://wa.me/00000000000"
+    ctaLink: "https://wa.me/213780295360"
   },
 
   "usul-thalatha": {
@@ -60,7 +60,7 @@ window.COURSES = {
     format: "أونلاين مباشرة",
     audience: "للنساء فقط",
     cta: "سجّلي مجانًا عبر واتساب",
-    ctaLink: "https://wa.me/00000000000"
+    ctaLink: "https://wa.me/213780295360"
   },
 
   "riyad-atfal": {
@@ -79,7 +79,7 @@ window.COURSES = {
     format: "أونلاين مباشرة",
     audience: "للنساء فقط",
     cta: "كوني أول المنضمين — تابعي حساباتنا",
-    ctaLink: "https://wa.me/00000000000"
+    ctaLink: "https://wa.me/213780295360"
   },
 
   "murshida-hajj": {
@@ -98,7 +98,7 @@ window.COURSES = {
     format: "أونلاين مباشرة",
     audience: "للنساء فقط",
     cta: "كوني أول المنضمين — تابعي حساباتنا",
-    ctaLink: "https://wa.me/00000000000"
+    ctaLink: "https://wa.me/213780295360"
   }
 
 };

@@ -20,13 +20,14 @@ node server.js
 
 افتح الملف `index.html` واستبدل الروابط التالية بروابطك الحقيقية:
 
-| المكان في الصفحة | ابحث عن | استبدل بـ |
-|---|---|---|
-| زر التسجيل | `https://forms.gle/your-registration-link` | رابط نموذج التسجيل |
-| واتساب (البطاقة + الزر العائم) | `https://wa.me/00000000000` | `https://wa.me/` + رقمك الدولي |
-| تيليجرام | `https://t.me/luluaacademy` | رابط قناتك |
-| إنستغرام | `https://instagram.com/your_account` | رابط حسابك |
-| البريد الإلكتروني | `mailto:luluaacademy@gmail.com` | بريدك |
+| المكان في الصفحة | القيمة الحالية |
+|---|---|
+| التسجيل (البطاقة + رمز QR) | `https://wa.me/213780295360` |
+| زر واتساب العائم | `https://wa.me/213780295360` |
+| تيليجرام | `https://t.me/luluaacademy` |
+| إنستغرام | `https://instagram.com/your_account` (مبدئي — لم يُحدَّث بعد) |
+| البريد الإلكتروني | `mailto:luluaacademy@gmail.com` |
+| صورة رمز QR | `assets/img/register-qr.png` و`register-qr.webp` |
 
 ## ✏️ تعديل المحتوى
 
